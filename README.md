@@ -16,8 +16,3 @@ Some controllers do not map buttons correctly in the CLR Browser plugin. The
 *wrong* so it's displayed correctly in the CLR browser. If this does not work,
 use window capture with the regular skin.
 
-## F710
-Skin for the F710 display.
-
-# Roadmap:
-- SVG for F710.
