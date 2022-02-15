@@ -38,7 +38,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /*BEGIN PS3 Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom{
-    background: url(https://github.com/Ishihako/custom-gamepadviewer-skins/blob/master/snes/drawing/drawing.svg); 
+    background: url(drawing/drawing.svg); 
     background-repeat: no-repeat;
     background-position: 0px 0px;
     width: 970px;
@@ -47,7 +47,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     margin-top: -212px;
 }
 .custom.disconnected {
-    background: url(https://github.com/Ishihako/custom-gamepadviewer-skins/blob/master/snes/drawing/drawing.svg); 
+    background: url(drawing/drawing.svg); 
     background-position: 0px -424px;
     background-repeat: no-repeat;
 }
@@ -55,13 +55,13 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 .custom.disconnected div {
     display: none;
 }
-.custom .bumpers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
+.custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
     width: 759px;
     height: 34px;
     position: absolute;
     left: 104px;
 }
-.custom .bumper{/* These are the actual triggers themselves */
+.custom .trigger{/* These are the actual triggers themselves */
     width: 211px;
     height: 34px;
     background: url(drawing/drawing.svg); 
@@ -69,10 +69,10 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     background-repeat: no-repeat;
     opacity: 0;
 }
-.custom .bumper.left{ 
+.custom .trigger.left{ 
     float: left;
 }
-.custom .bumper.right{
+.custom .trigger.right{
     float: right;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
